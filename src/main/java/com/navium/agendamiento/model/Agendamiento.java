@@ -13,7 +13,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
  
 @Entity
-@Table(name = "agendamientos")
+@Table(name = "agendamientos", schema = "navium")
 @Schema(description = "Representa un agendamiento de camión en el puerto")
 public class Agendamiento {
  
