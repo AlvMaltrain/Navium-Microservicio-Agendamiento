@@ -1,0 +1,19 @@
+# Artefactos de compilación
+target/
+
+# Git
+.git 
+.gitignore
+.gitattributes
+
+# IDE / editor
+.vscode
+.idea
+
+# Documentación / config
+HELP.md
+README.md
+
+# Docker
+Dockerfile
+.dockerignore
