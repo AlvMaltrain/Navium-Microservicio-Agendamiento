@@ -2,7 +2,7 @@ name: Build y push a DockerHub
 
 on:
   push:
-    branches: [ main, feature/dockerizar ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
